@@ -44,13 +44,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites'
+    'django.contrib.sites',
 ]
 LOCAL_APPS = [
     'home',
     'users.apps.UsersConfig',
 ]
 THIRD_PARTY_APPS = [
+    'sortedm2m',
+    'photologue',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
